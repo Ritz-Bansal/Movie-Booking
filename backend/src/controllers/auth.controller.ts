@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { Show, Booking, User } from "../models/db.js";
+import { User } from "../models/db.js";
 import { Signin, Signup } from "../validators/auth.validator.js";
 import jwt from "jsonwebtoken";
 import "dotenv/config";
